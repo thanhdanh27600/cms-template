@@ -1,0 +1,20 @@
+{
+	"data": [
+		{
+			"attributes": {
+				"slug": "slug",
+				"title": "slug title",
+				"description": "slug description",
+				"picture": {
+					"data": {
+						"attributes": {
+							"name": "name.jpg",
+							"alternativeText": null,
+							"url": "/images/logo.jpg"
+						}
+					}
+				}
+			}
+		}
+	]
+}

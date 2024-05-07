@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_content_items",
+  "info": {
+    "displayName": "Content Item",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "key": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

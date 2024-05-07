@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_media_media_items",
+  "info": {
+    "displayName": "Media Item",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "key": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100,
+      "minLength": 1
+    }
+  }
+}

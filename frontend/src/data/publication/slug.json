@@ -1,0 +1,87 @@
+{
+	"data": [
+		{
+			"id": 2,
+			"attributes": {
+				"title": "Commitment to Customer Satisfaction in Mineral Trading",
+				"description": "In the fast-paced world of mineral trading, efficiency, and value are paramount. At Jia En, we are committed to ensuring customer satisfaction by providing streamlined and value-added services that enhance the mineral trading experience. In this publication, we highlight our dedication to efficiency, our focus on creating value for our clients, and how our approach sets us apart in the industry.",
+				"content": "<div class=\"row\"><div class=\"col-md-12\"><div class=\"row\"><div class=\"col-md-12\"><p>In the fast-paced world of mineral trading, efficiency, and value are paramount. At Jia En, we are committed to ensuring customer satisfaction by providing streamlined and value-added services that enhance the mineral trading experience. In this publication, we highlight our dedication to efficiency, our focus on creating value for our clients, and how our approach sets us apart in the industry.</p><h2>Streamlined Processes</h2><p>We understand the importance of time and efficiency in the mineral trading business. Our streamlined processes are designed to minimize delays and maximize productivity. From initial market research to supplier selection, negotiation, and logistics management, we employ efficient systems and technologies to ensure smooth operations at every step. Our goal is to save you time, reduce costs, and eliminate unnecessary complexities, allowing you to focus on your core business.</p><h2>Value Creation</h2><p>At Jia En, we go beyond simply connecting buyers and sellers. We believe in creating value for our clients by offering comprehensive solutions that enhance their mineral trading endeavors. Through our extensive market knowledge and expertise, we identify opportunities for optimization, cost savings, and risk management. By leveraging our insights, we help our clients make informed decisions that maximize their profitability and contribute to their long-term success.</p><h2>Commitment to Customer Satisfaction</h2><p>Customer satisfaction is at the heart of everything we do. We take the time to understand our clients' unique requirements and objectives, ensuring that our services are tailored to meet their specific needs. We maintain open lines of communication, providing regular updates and transparent information throughout the trading process. Our dedicated team of professionals is always available to address any concerns and provide prompt assistance, ensuring a seamless and satisfactory experience for our clients.</p></div></div><blockquote><p>A business has to be involving, it has to be efficiency, and it has to exercise your creative instincts.</p></blockquote><div class=\"row\"><div class=\"col-md-12\"><h2>Our Features</h2><p>we are committed to enhancing efficiency, creating value, and delivering exceptional customer satisfaction in the mineral trading industry. Our streamlined processes, focus on value creation, and unwavering commitment to our clients set us apart from the competition. Whether you are a buyer or a seller in the industrial and energy sectors, we invite you to experience our top-notch service and discover how we can optimize your mineral trading activities.</p><div class=\"row\"><div class=\"col-md-6\"><ul><li>Efficiency Enhancement</li><li>Empowered markets via plug-and-play</li><li>Value Creation</li><li>Exceptional Customer Satisfaction</li><li>Industry Expertise</li><li>Optimal Trading Activities</li><li>Transparency and Integrity</li></ul></div></div></div></div></div></div>",
+				"slug": "commitment-to-customer-satisfaction-in-mineral-trading",
+				"createdAt": "2024-03-04T00:30:50.616Z",
+				"updatedAt": "2024-04-12T15:43:33.354Z",
+				"publishedAt": "2024-03-04T00:30:50.616Z",
+				"picture": {
+					"data": {
+						"id": 12,
+						"attributes": {
+							"name": "mining.jpeg",
+							"alternativeText": null,
+							"caption": null,
+							"width": 2252,
+							"height": 1500,
+							"formats": {
+								"thumbnail": {
+									"name": "thumbnail_mining.jpeg",
+									"hash": "thumbnail_mining_26cce02e55",
+									"ext": ".jpeg",
+									"mime": "image/jpeg",
+									"path": null,
+									"width": 234,
+									"height": 156,
+									"size": 11.01,
+									"url": "/uploads/thumbnail_mining_26cce02e55.jpeg"
+								},
+								"small": {
+									"name": "small_mining.jpeg",
+									"hash": "small_mining_26cce02e55",
+									"ext": ".jpeg",
+									"mime": "image/jpeg",
+									"path": null,
+									"width": 500,
+									"height": 333,
+									"size": 49.04,
+									"url": "/uploads/small_mining_26cce02e55.jpeg"
+								},
+								"medium": {
+									"name": "medium_mining.jpeg",
+									"hash": "medium_mining_26cce02e55",
+									"ext": ".jpeg",
+									"mime": "image/jpeg",
+									"path": null,
+									"width": 750,
+									"height": 500,
+									"size": 108.3,
+									"url": "/uploads/medium_mining_26cce02e55.jpeg"
+								},
+								"large": {
+									"name": "large_mining.jpeg",
+									"hash": "large_mining_26cce02e55",
+									"ext": ".jpeg",
+									"mime": "image/jpeg",
+									"path": null,
+									"width": 1000,
+									"height": 666,
+									"size": 196.99,
+									"url": "/uploads/large_mining_26cce02e55.jpeg"
+								}
+							},
+							"hash": "mining_26cce02e55",
+							"ext": ".jpeg",
+							"mime": "image/jpeg",
+							"size": 791.11,
+							"url": "/images/logo.jpg",
+							"previewUrl": null,
+							"provider": "local",
+							"provider_metadata": null,
+							"createdAt": "2024-04-12T15:40:22.300Z",
+							"updatedAt": "2024-04-12T15:40:22.300Z"
+						}
+					}
+				}
+			}
+		}
+	],
+	"meta": {
+		"pagination": {"page": 1, "pageSize": 25, "pageCount": 1, "total": 1}
+	}
+}
