@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "strapi build",
+    "decrypt": "gpg --quiet --batch --yes --decrypt --passphrase=\"$SECRET_PASSPHRASE\" --output .env.gpg ./.env",
     "dev": "strapi develop",
     "export:all": "strapi export --no-encrypt -f ../seed-data",
     "export:content": "strapi export --only content --no-encrypt -f ./.tmp/content",
