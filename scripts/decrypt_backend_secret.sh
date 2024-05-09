@@ -1,4 +1,5 @@
 #!/bin/sh
+cd backend
 
 if [ -z "$1" ] || [ -z "$2" ]
 then
