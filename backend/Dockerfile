@@ -22,5 +22,8 @@ RUN npm run build
 # Expose the Next.js default port
 EXPOSE 1337
 
+# Production env
+ENV NODE_ENV production
+
 # Set the command to run when the container starts
-CMD ["NODE_ENV=production", "npm", "start"]
+CMD ["npm", "start"]
