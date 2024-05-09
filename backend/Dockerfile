@@ -23,4 +23,4 @@ RUN npm run build
 EXPOSE 1337
 
 # Set the command to run when the container starts
-CMD ["npm", "start"]
+CMD ["NODE_ENV=production", "npm", "start"]
