@@ -928,6 +928,7 @@ export interface ApiPublicationPublication extends Schema.CollectionType {
         }
       >;
     slug: Attribute.UID<'api::publication.publication', 'title'>;
+    views: Attribute.BigInteger;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
