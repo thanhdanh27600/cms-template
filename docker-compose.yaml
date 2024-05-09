@@ -1,0 +1,23 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - '1337:1337'
+    volumes:
+      - backend-data-db:/app/.tmp
+      - backend-data-public:/app/public
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - '3000:3000'
+  #   volumes:
+  #     - frontend-data:/app/.temp
+
+volumes:
+  backend-data-db:
+  backend-data-public:
+  # frontend-data:
