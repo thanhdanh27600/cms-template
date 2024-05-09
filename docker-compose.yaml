@@ -1,5 +1,13 @@
 services:
   backend:
+    environment:
+      - HOST=$HOST
+      - PORT=$PORT
+      - APP_KEYS=$APP_KEYS
+      - API_TOKEN_SALT=$API_TOKEN_SALT
+      - ADMIN_JWT_SECRET=$API_TOKEN_SALT
+      - TRANSFER_TOKEN_SALT=$TRANSFER_TOKEN_SALT
+      - JWT_SECRET=$JWT_SECRET
     build:
       context: ./backend
       dockerfile: Dockerfile
