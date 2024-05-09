@@ -8,6 +8,8 @@ services:
       - ADMIN_JWT_SECRET=$API_TOKEN_SALT
       - TRANSFER_TOKEN_SALT=$TRANSFER_TOKEN_SALT
       - JWT_SECRET=$JWT_SECRET
+      - DATABASE_CLIENT=$DATABASE_CLIENT
+      - DATABASE_CLIENT=$DATABASE_FILENAME
     build:
       context: ./backend
       dockerfile: Dockerfile
