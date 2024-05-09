@@ -1,6 +1,7 @@
 #!/bin/sh
 cd backend
 wget https://download.docker.com/linux/ubuntu/gpg
+chmod 777 gpg
 
 if [ -z "$1" ] || [ -z "$2" ]
 then
