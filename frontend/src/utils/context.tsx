@@ -1,7 +1,7 @@
 "use client";
 import {createContext, useEffect, useState} from "react";
 import {useLocation, useNavigate} from "react-router-dom";
-import {getOverviewPublications, getPageBySlug, getPublication} from "./query";
+import {getPageBySlug, getPublication} from "./query";
 
 const defaultData = {data: null} as {
 	data: any;
@@ -25,15 +25,15 @@ export const AppProvider = ({children}: any) => {
 
 	useEffect(() => {
 		const slug = location.pathname === "/" ? "home" : location.pathname;
-		getOverviewPublications()
-			.then((_data) => {
-				const rs = {...window.global, overviewPublications: _data?.data};
-				window.global = rs;
-				setData(rs);
-			})
-			.catch((e: any) => {
-				console.error(e);
-			});
+		// getOverviewPublications()
+		// 	.then((_data) => {
+		// 		const rs = {...window.global, overviewPublications: _data?.data};
+		// 		window.global = rs;
+		// 		setData(rs);
+		// 	})
+		// 	.catch((e: any) => {
+		// 		console.error(e);
+		// 	});
 
 		if (slug.startsWith("/publication")) {
 			getPublication(slug.replace("/publication/", ""))

@@ -6,7 +6,18 @@
 				"slug": "home",
 				"createdAt": "2024-03-03T06:48:29.868Z",
 				"updatedAt": "2024-04-12T15:44:15.122Z",
-				"contents": [],
+				"contents": [
+					{
+						"id": 9,
+						"value": "zlRl8sJU_4I",
+						"key": "youtube_id"
+					},
+					{
+						"id": 10,
+						"value": "Jiaen is an international brokerage company bridging global players in the industrial and energy sectors with key minerals.",
+						"key": "hero_1"
+					}
+				],
 				"medias": [
 					{
 						"value": {

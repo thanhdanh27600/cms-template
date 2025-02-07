@@ -3,6 +3,8 @@ import overviewPublication from "../data/overviewPublication.json";
 import publication1 from "../data/publication/slug.json";
 import {fetchAPI} from "./api";
 
+const isMock = true;
+
 export async function getGlobal(): Promise<any> {
 	const path = `/global`;
 
@@ -13,7 +15,7 @@ export async function getGlobal(): Promise<any> {
 }
 
 export async function getOverviewPublications(): Promise<any> {
-	return overviewPublication;
+	if (isMock) return overviewPublication;
 	const path = `/publications`;
 
 	const urlParamsObject = {
@@ -38,20 +40,21 @@ export async function getPublication(slug: string): Promise<any> {
 }
 
 export async function getPageBySlug(slug: string | string[]) {
-	switch (slug as string) {
-		case "home":
-			return homeData.data;
-
-		default:
-			return [];
+	if (isMock) {
+		switch (slug as string) {
+			case "home":
+				return homeData.data;
+			default:
+				return [];
+		}
 	}
-	// const path = `/pages`;
-	// const urlParamsObject = {
-	// 	filters: {
-	// 		slug: typeof slug === "object" ? slug.join("/") : slug.replace("/", ""),
-	// 	},
-	// 	populate: ["contents", "medias", "medias.value"],
-	// };
-	// const data = await fetchAPI(path, urlParamsObject);
-	// return data?.data;
+	const path = `/pages`;
+	const urlParamsObject = {
+		filters: {
+			slug: typeof slug === "object" ? slug.join("/") : slug.replace("/", ""),
+		},
+		populate: ["contents", "medias", "medias.value"],
+	};
+	const data = await fetchAPI(path, urlParamsObject);
+	return data?.data;
 }
